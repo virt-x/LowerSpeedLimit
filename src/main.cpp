@@ -1,5 +1,5 @@
 #include <xbyak/xbyak.h>
-#include "Include/SimpleIni.h"
+#include <SimpleIni.h>
 
 float speedLimit;
 
@@ -60,3 +60,4 @@ SKSEPluginLoad(const SKSE::LoadInterface* skse) {
     messagingInterface->RegisterListener(OnMessage);
     return true;
 }
+
